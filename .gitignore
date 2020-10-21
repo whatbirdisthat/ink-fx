@@ -2,3 +2,6 @@ node_modules
 dist
 .idea
 mb.log
+mb.log*
+m*.log
+mb.pid
