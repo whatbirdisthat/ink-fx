@@ -9,11 +9,11 @@ const cli = meow(`
 	  $ usdaud
 
 	Options
-		--name  Your name
+		--dollars  The USD to convert to AUD
 
 	Examples
-	  $ usdaud --name=Jane
-	  Hello, Jane
+	  $ usdaud 100
+	  71.23
 `, {
 	flags: {
 		dollars: {
